@@ -1,0 +1,29 @@
+🎯 Objetivo
+💼 Modelar facturas emitidas para un sistema contable, reforzando el uso de constructores, equals(), hashCode() y toString().
+
+📝 Instrucciones
+👤 Este reto se puede resolver de forma individual.
+
+📄 Crea una clase llamada Factura.
+
+Declara los siguientes atributos:
+
+String folio
+String cliente
+double total
+Implementa lo siguiente:
+
+Un constructor con parámetros para inicializar todos los atributos.
+
+El método toString() para mostrar la información de la factura con este formato:
+
+🧾 Factura [folio=..., cliente=..., total=$...]
+El método equals() para que dos facturas se consideren iguales si tienen el mismo folio.
+
+El método hashCode() basado en el atributo folio.
+
+💻 En la clase Main:
+
+Crea dos facturas con el mismo folio pero diferentes clientes o totales.
+Muestra ambas con toString().
+Compara si son iguales con equals().
